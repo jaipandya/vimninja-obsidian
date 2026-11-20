@@ -1,0 +1,98 @@
+/* VimNinja for Obsidian: only what sits in Obsidian's own window, on Obsidian's own variables so it follows any theme.
+   The course's styles live in its tab's frame (obsidian/app/app.css) and never reach here. */
+
+/* the tab: the frame fills it, edge to edge */
+.workspace-leaf-content[data-type='vimninja'] .view-content.vimninja-view {
+  padding: 0;
+  overflow: hidden;
+}
+.vimninja-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+}
+
+/* the status bar: what's due */
+.vimninja-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-variant-numeric: tabular-nums;
+}
+.vimninja-status-icon {
+  display: inline-flex;
+}
+.vimninja-status-icon svg {
+  width: var(--icon-xs, 14px);
+  height: var(--icon-xs, 14px);
+}
+.vimninja-status-streak {
+  color: var(--text-faint);
+}
+.vimninja-status-streak::before {
+  content: '·';
+  margin-right: 5px;
+}
+
+/* ```vimninja``` in a note */
+.vimninja-card {
+  display: grid;
+  gap: 6px;
+  padding: var(--size-4-3) var(--size-4-4);
+  border: var(--border-width) solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  background: var(--background-secondary);
+  font-size: var(--font-ui-medium);
+}
+.vimninja-card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+.vimninja-card-icon {
+  display: inline-flex;
+  color: var(--interactive-accent);
+}
+.vimninja-card-icon svg {
+  width: 16px;
+  height: 16px;
+}
+.vimninja-card-name {
+  font-weight: var(--font-semibold);
+  color: var(--text-normal);
+}
+.vimninja-card-streak {
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
+.vimninja-card-title {
+  margin-top: 2px;
+  font-weight: var(--font-semibold);
+  color: var(--text-normal);
+}
+.vimninja-card-text {
+  color: var(--text-muted);
+  line-height: var(--line-height-normal);
+}
+.vimninja-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+/* a reminder's notice */
+.vimninja-notice-title {
+  font-weight: var(--font-semibold);
+}
+.vimninja-notice-text {
+  margin-top: 4px;
+  color: var(--text-muted);
+}
+.vimninja-notice-go {
+  margin-top: 10px;
+}
