@@ -8,6 +8,12 @@
 Short lessons, a two-minute daily review, Vim golf, and practice on a copy of your own notes,<br>in a tab that looks like the rest of your vault.</p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Obsidian-1.13%2B-7C3AED?logo=obsidian&logoColor=white" alt="Obsidian 1.13 or later">
+  <img src="https://img.shields.io/badge/desktop-macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-4B5563" alt="Desktop: macOS, Windows, Linux">
+  <img src="https://img.shields.io/badge/price-free-22A06B" alt="Free">
+</p>
+
+<p align="center">
   <a href="https://www.vimninja.com/obsidian">vimninja.com/obsidian</a> ·
   <a href="#install">Install</a> ·
   <a href="#vim-keys-for-obsidian">Vim keys for Obsidian</a> ·
@@ -86,11 +92,24 @@ No default hotkeys: give any of them one in **Settings › Hotkeys**. Every sett
 
 ## Install
 
-**From Obsidian:** Settings › Community plugins › Browse, search for **VimNinja**, then Install and Enable.
+Desktop only (macOS, Windows, Linux), Obsidian 1.13 or later. The course is played on a physical keyboard.
 
-**By hand:** download `main.js`, `manifest.json` and `styles.css` from the [latest release](../../releases/latest) into `<your vault>/.obsidian/plugins/vimninja/`, then turn it on under Settings › Community plugins.
+**With BRAT** (the easiest way today, and it keeps VimNinja up to date)
 
-Desktop only, Obsidian 1.13 or later. The course is played on a physical keyboard.
+1. In Obsidian, open **Settings › Community plugins › Browse**, install **BRAT** and enable it.
+2. Open the command palette (`Ctrl/Cmd + P`) and run BRAT's **Add a beta plugin for testing** command.
+3. Paste `vimninja/vimninja-obsidian` and choose **Add plugin**. If VimNinja isn't on yet, turn it on in **Settings › Community plugins**.
+
+**By hand**
+
+1. Download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/vimninja/vimninja-obsidian/releases/latest).
+2. Put the three files in a folder named `vimninja` inside your vault's plugins folder: `<your vault>/.obsidian/plugins/vimninja/`.
+   On macOS, Finder hides the `.obsidian` folder: press `Cmd + Shift + .` to see it.
+3. In **Settings › Community plugins**, press the reload button next to *Installed plugins*, then turn **VimNinja** on.
+
+**From Obsidian's plugin browser** (once VimNinja is listed there): **Settings › Community plugins › Browse**, search for **VimNinja**, then Install and Enable.
+
+**Then:** open the command palette and run **VimNinja: Open**.
 
 ## Privacy, network, accounts and payments
 
