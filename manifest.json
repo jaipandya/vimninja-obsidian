@@ -1,7 +1,7 @@
 {
   "id": "vimninja",
   "name": "VimNinja",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minAppVersion": "1.13.0",
   "description": "Learn Vim's motions where you write: short lessons, a two-minute daily review, Vim golf, practice on a copy of your own notes, and the Vim keys people add first.",
   "author": "VimNinja",

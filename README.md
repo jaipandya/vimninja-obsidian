@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/1-where-you-write.png" alt="VimNinja for Obsidian: a daily note with VimNinja's card beside VimNinja's tab, a review round under way" width="100%">
+  <img src="images/demo.gif" alt="VimNinja in Obsidian: a lesson in a tab beside the daily note solved key by key, a right-click to practise a note as a copy (cw changes December to January), jk turned on with a switch and leaving Insert mode in a note, today's review opened from the daily note's VimNinja card" width="100%">
 </p>
 
 <h1 align="center">VimNinja for Obsidian</h1>
@@ -34,7 +34,7 @@ You turned on Vim key bindings in Obsidian. Then the cursor became a block, `i` 
 
 ### Practice on your own notes
 
-Run **Practise Vim on this note** from the command palette, the editor's menu or a file's menu. The note, or just the lines you selected, opens as a copy with every key you press read back. Change it, undo it, try it again. The note itself never changes.
+Run **Practise Vim on this note** from the command palette, the editor's menu or a file's menu, and the note opens as a copy, with every key you press read back. Select a few lines first to practise just those. Change it, undo it, try it again. The note itself never changes.
 
 <p align="center"><img src="images/2-your-notes.png" alt="A newsletter note beside VimNinja's copy of it, cw changing December to January" width="100%"></p>
 
