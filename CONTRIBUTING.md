@@ -4,7 +4,7 @@ Thanks for helping make VimNinja better.
 
 ## Report a bug or ask for something
 
-- **Bugs:** [open an issue](https://github.com/vimninja/vimninja-obsidian/issues/new) with your Obsidian version,
+- **Bugs:** [open an issue](https://github.com/jaipandya/vimninja-obsidian/issues/new) with your Obsidian version,
   your operating system, what you did, what you expected and what happened. A screenshot helps.
 - **Ideas and questions:** an issue here, or [vimninja.com/feedback](https://www.vimninja.com/feedback). We read
   everything.

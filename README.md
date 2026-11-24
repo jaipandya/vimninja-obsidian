@@ -98,11 +98,11 @@ Desktop only (macOS, Windows, Linux), Obsidian 1.13 or later. The course is play
 
 1. In Obsidian, open **Settings › Community plugins › Browse**, install **BRAT** and enable it.
 2. Open the command palette (`Ctrl/Cmd + P`) and run BRAT's **Add a beta plugin for testing** command.
-3. Paste `vimninja/vimninja-obsidian` and choose **Add plugin**. If VimNinja isn't on yet, turn it on in **Settings › Community plugins**.
+3. Paste `jaipandya/vimninja-obsidian` and choose **Add plugin**. If VimNinja isn't on yet, turn it on in **Settings › Community plugins**.
 
 **By hand**
 
-1. Download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/vimninja/vimninja-obsidian/releases/latest).
+1. Download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/jaipandya/vimninja-obsidian/releases/latest).
 2. Put the three files in a folder named `vimninja` inside your vault's plugins folder: `<your vault>/.obsidian/plugins/vimninja/`.
    On macOS, Finder hides the `.obsidian` folder: press `Cmd + Shift + .` to see it.
 3. In **Settings › Community plugins**, press the reload button next to *Installed plugins*, then turn **VimNinja** on.
