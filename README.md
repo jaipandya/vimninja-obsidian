@@ -117,9 +117,10 @@ Desktop only (macOS, Windows, Linux), Obsidian 1.13 or later. The course is play
 - **Where it keeps things:** your course progress in Obsidian's app storage on this computer; the plugin's own state for each vault in Obsidian's per-vault storage. Nothing is written into your notes or your vault's files except the plugin's own settings (`data.json`: status bar, colours, notifications, which Vim keys are on).
 - **Network use, only if you connect a vimninja.com account** (optional, from VimNinja's Settings): it talks to `https://www.vimninja.com/api/ext/v1/` to connect (a one-time code you approve on vimninja.com, signed in there), to sync your practice results, reviews and plan with your account, and to send finished practice runs to be checked. The key it receives is kept in Obsidian's secret storage, never in the vault, and goes only to that address. Disconnect any time, in VimNinja's Settings or on your account page.
 - **Links** to vimninja.com (the full lessons, the guides, Pro) open in your browser, tagged `utm_source=obsidian`.
-- **Accounts and payments:** no account is needed, and the plugin is free. **VimNinja Pro**, bought on vimninja.com, opens the rest of the course and every drill there; with a Pro account connected, the Pro drills open in the plugin too.
+- **Accounts and payments:** the plugin is free and needs no account: the free lessons, the daily review, golf, Your note and the Vim keys are all there without one. **Full access needs both an account and a payment:** VimNinja Pro, bought on vimninja.com, opens the rest of the course and every drill there, and with a Pro account connected, the Pro drills open in the plugin too.
 - **The clipboard** is written only when you press **Copy the text** in Your note, or when you turn on **y and p with the system clipboard**.
 - **Closed source:** this repository holds the built plugin, not its source. VimNinja's lessons and Vim engine are its own work.
+- **Privacy policy:** [vimninja.com/privacy](https://www.vimninja.com/privacy) says what a connected account stores and how it's handled.
 
 ## Support
 
