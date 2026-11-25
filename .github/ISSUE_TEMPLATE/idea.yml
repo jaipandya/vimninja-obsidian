@@ -1,0 +1,11 @@
+name: An idea
+description: Something VimNinja for Obsidian could do, or do better.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What you'd like, and the moment in your writing or learning where it would help.
+    validations:
+      required: true

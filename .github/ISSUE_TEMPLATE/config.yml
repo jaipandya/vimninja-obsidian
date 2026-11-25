@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A question, or anything about your account or Pro
+    url: https://www.vimninja.com/feedback?from=obsidian
+    about: Ask on vimninja.com. Your account and payments are handled there, never in a public issue.

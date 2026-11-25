@@ -1,0 +1,42 @@
+name: Something isn't working
+description: VimNinja for Obsidian does something it shouldn't, or doesn't do what it says.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for telling us. Please leave out anything private, such as your notes, your email address or an account key.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. A screenshot helps.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      placeholder: |
+        1. Open VimNinja
+        2. …
+  - type: input
+    id: version
+    attributes:
+      label: VimNinja version
+      description: Settings › Community plugins, under VimNinja.
+      placeholder: 1.0.4
+    validations:
+      required: true
+  - type: input
+    id: obsidian
+    attributes:
+      label: Obsidian version and system
+      description: Settings › General.
+      placeholder: Obsidian 1.13.2 on macOS 15
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your Vim setup, if it's about the Vim keys
+      description: Is Vim key bindings on? Which of VimNinja's Vim keys are on? Do you use another Vim plugin or a .obsidian.vimrc?

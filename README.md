@@ -94,7 +94,12 @@ No default hotkeys: give any of them one in **Settings › Hotkeys**. Every sett
 
 Desktop only (macOS, Windows, Linux), Obsidian 1.13 or later. The course is played on a physical keyboard.
 
-**With BRAT** (the easiest way today, and it keeps VimNinja up to date)
+**From Obsidian's community plugins**
+
+1. In Obsidian, open **Settings › Community plugins** (turn off Restricted mode if it's on) and choose **Browse**.
+2. Search for **VimNinja**, then **Install** and **Enable**. Or open [its page in Obsidian's directory](https://community.obsidian.md/plugins/vimninja) and press Install.
+
+**With BRAT** (to get a new version the day it's released)
 
 1. In Obsidian, open **Settings › Community plugins › Browse**, install **BRAT** and enable it.
 2. Open the command palette (`Ctrl/Cmd + P`) and run BRAT's **Add a beta plugin for testing** command.
@@ -106,8 +111,6 @@ Desktop only (macOS, Windows, Linux), Obsidian 1.13 or later. The course is play
 2. Put the three files in a folder named `vimninja` inside your vault's plugins folder: `<your vault>/.obsidian/plugins/vimninja/`.
    On macOS, Finder hides the `.obsidian` folder: press `Cmd + Shift + .` to see it.
 3. In **Settings › Community plugins**, press the reload button next to *Installed plugins*, then turn **VimNinja** on.
-
-**From Obsidian's plugin browser** (once VimNinja is listed there): **Settings › Community plugins › Browse**, search for **VimNinja**, then Install and Enable.
 
 **Then:** open the command palette and run **VimNinja: Open**.
 
